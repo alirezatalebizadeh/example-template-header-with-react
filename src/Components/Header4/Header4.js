@@ -5,9 +5,25 @@ export default function Header4() {
         <div className='header4'>
             <div className='header4__left'>
                 <div className='text_box'>
-                    <h1 className='title'>Place Place!</h1>
-                    <h1 className='sub__title'>Place Place!</h1>
-                    <p className='txt'></p>
+                    <h1 className='title4'><span className='orange__txt'>Place</span>  Place!</h1>
+                    <h1 className='sub__title'>Find Every <span className='white__txt'>Place</span> You Want </h1>
+                    <p className='txt'>lorem lorem
+                        lorem ipsom lorem lorem
+                        lorem ipsom  lorem lorem
+                        lorem ipsom  lorem lorem
+                        lorem ipsom  lorem lorem
+                        lorem ipsom  lorem lorem
+                        lorem ipsom  lorem lorem
+                        lorem ipsom  lorem lorem
+                        lorem ipsom  lorem lorem
+                        lorem ipsom lorem lorem
+                        lorem ipsom lorem lorem
+                        lorem ipsom lorem lorem
+                        lorem ipsom lorem lorem
+                        lorem ipsom lorem lorem
+                        lorem ipsom lorem lorem
+                        lorem ipsom lorem lorem
+                        lorem ipsom v </p>
                 </div>
             </div>
             <div className='header4__right'>this is right</div>

@@ -1,0 +1,55 @@
+.header5 {
+  height: 90vh;
+  width: 100%;
+  /* background-color: yellow; */
+  border: 1px solid rgba(83, 4, 4, 0.621);
+}
+
+.shape {
+  width: 400px;
+  height: 90vh;
+  background-color: red;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  position: absolute;
+  right: 10%;
+}
+.circle {
+  width: 400px;
+  height: 400px;
+  clip-path: circle(50% at 50% 50%);
+  position: absolute;
+  right: 10%;
+  top: 25%;
+  z-index: 100;
+  background-image: url("./../../../public/images/۲۰۲۲۰۸۱۹_۱۲۵۲۵۹-removebg-preview.png");
+  background-position: top;
+  background-size: cover;
+}
+
+.text5 {
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+
+.header5__title {
+  font-size: 44px;
+}
+.txt {
+  font-size: 48px;
+  color: rgba(255, 0, 0, 0.837);
+}
+.header5__txt {
+  margin-top: 10px;
+  color: gray;
+  font-size: 18px;
+}
+.header5__media {
+  margin-top: 10px;
+  font-size: 24px;
+}
+.fa {
+  margin-right: 15px;
+  cursor: pointer;
+}
