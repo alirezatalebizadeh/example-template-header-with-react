@@ -1,0 +1,87 @@
+.header2 {
+  height: 90vh;
+  background-image: linear-gradient(
+      115deg,
+      #5e5c5cde 0%,
+      #9dc5c3de 40%,
+      transparent 40%
+    ),
+    url("./../../../public/images/برج-آزادی-1-scaled.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+.nav {
+}
+.navbar__links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 30px;
+}
+
+.link__item {
+  margin: 0 15px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.link__item:hover:not(.home) {
+  border-bottom: 3px solid #025a55;
+}
+
+.home {
+  background-color: #0db4ca;
+  padding: 10px 15px;
+  margin-top: -10px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.home {
+  background-color: #025a55;
+}
+
+.texts {
+  /* background-color: green; */
+  width: 40%;
+  height: 77vh;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  font-family: sans-serif;
+}
+
+.title {
+  grid-column: 2/5;
+  grid-row: 2/3;
+  color: white;
+}
+
+.info {
+  grid-column: 2/5;
+  grid-row: 3/5;
+  font-size: 1.2rem;
+  color: white;
+}
+.btn {
+  grid-row: 5/6;
+  grid-column: 2/4;
+  align-self: start;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  background-color: #0db4ac;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: #096f7c;
+}
+.fa {
+  margin: 0 10px;
+}
