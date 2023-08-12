@@ -1,0 +1,55 @@
+.header4 {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  background-image: linear-gradient(
+    to top,
+    rgba(243, 12, 12, 0.892) 10%,
+    rgba(229, 210, 4, 0.901) 90%
+  );
+}
+
+.header4__right {
+  flex-basis: 50%;
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+  background-image: url("./../../../public/images/برج-آزادی-1-scaled.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.header4__left {
+  flex-basis: 50%;
+  /* //! Cut anything */
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0% 100%, 0% 50%, 0 0);
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+.text_box {
+  width: 70%;
+  height: 60vh;
+  margin-left: 30px;
+  font-family: sans-serif;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.title {
+  font-size: 2.4rem;
+  color: rgb(255, 255, 255);
+}
+
+.sub__title {
+  font-size: 3rem;
+  color: orange;
+}
+.txt {
+  line-height: 17px;
+  color: rgb(255, 255, 255);
+}
+.orange__txt {
+  color: orange;
+}
+.white__txt {
+  color: white;
+}
