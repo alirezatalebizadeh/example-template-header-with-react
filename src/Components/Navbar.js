@@ -25,6 +25,12 @@ export default function Navbar() {
                         <li className="nav-item">
                             <Link to='/header5' className="nav-link" aria-current="page">Header5</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link to='/header6' className="nav-link" aria-current="page">Header6</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/header7' className="nav-link" aria-current="page">Header7</Link>
+                        </li>
 
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

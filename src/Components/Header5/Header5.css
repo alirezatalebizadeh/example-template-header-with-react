@@ -3,6 +3,7 @@
   width: 100%;
   /* background-color: yellow; */
   border: 1px solid rgba(83, 4, 4, 0.621);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .shape {
@@ -36,7 +37,7 @@
 .header5__title {
   font-size: 44px;
 }
-.txt {
+.txt__red {
   font-size: 48px;
   color: rgba(255, 0, 0, 0.837);
 }
