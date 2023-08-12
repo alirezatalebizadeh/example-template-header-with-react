@@ -2,12 +2,12 @@ import React from 'react'
 import './Header1.css'
 export default function Header1() {
     return (
-        <div class="container">
-            <h1 class="text">
+        <div class="container1">
+            <h1 class="textHedaer">
                 Creative Header <br />
                 Design
             </h1>
-            <div class="header">
+            <div class="header1">
                 <div class="header_left">
                     <img src='images/flower.jpg' alt='flower' />
                 </div>

@@ -17,6 +17,9 @@ export default function Navbar() {
                             <Link to='/header2' className="nav-link active" aria-current="page">Header2</Link>
                         </li>
                         <li className="nav-item">
+                            <Link to='/header3' className="nav-link active" aria-current="page">Header3</Link>
+                        </li>
+                        <li className="nav-item">
                             <a className="nav-link" href="#">Link</a>
                         </li>
                         <li className="nav-item dropdown">
