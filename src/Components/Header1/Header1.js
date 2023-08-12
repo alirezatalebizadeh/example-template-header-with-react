@@ -8,7 +8,9 @@ export default function Header1() {
                 Design
             </h1>
             <div class="header">
-                <div class="header_left"></div>
+                <div class="header_left">
+                    <img src='images/flower.jpg' alt='flower' />
+                </div>
                 <div class="header_right">
                     <h2 class="wellcome">Wellcome</h2>
                     <p class="paragraph">

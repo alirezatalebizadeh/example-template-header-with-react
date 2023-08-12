@@ -16,9 +16,13 @@
 }
 .header_left {
   grid-column: 1/4;
-  /* background-image: url("/images/flower-purple-lical-blosso.jpg"); */
+  /* background-image: url("images/flower.jpg"); */
   background-size: cover;
   background-position: right;
+}
+.header_left img{
+  width: 100%;
+  height: 100%;
 }
 .header_right {
   background-color: #2d0b3dea;
@@ -63,8 +67,8 @@
   position: absolute;
   text-align: center;
   top: 40%;
-  right: 42%;
-  background: linear-gradient(to right, #cacaca 45%, #202020 30%);
+  right: 40%;
+  background: linear-gradient(to left, #cacaca 45%, #202020 30%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Playfair Display", serif;
